@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6a7b79caa87ae46f6992cfa4f27944cb",
+    "packages": [
+        {
+            "name": "massfice/response-status",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/response-status.git",
+                "reference": "f88ad87e74e276441dc6e8e27a0aadbe93b89445"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/response-status/zipball/f88ad87e74e276441dc6e8e27a0aadbe93b89445",
+                "reference": "f88ad87e74e276441dc6e8e27a0aadbe93b89445",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\ResponseStatus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Package contains response-status class, that contains info about validation status, response http code, errors array, messages, etc. Project for my diploma.",
+            "time": "2020-01-19T19:33:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

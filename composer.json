@@ -1,0 +1,20 @@
+{
+    "name": "massfice/action",
+    "type": "library",
+    "description": "This package contains action interfaces and factiories. This is for my diploma project.",
+    "require": {
+        "massfice/response-status": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Massfice",
+            "email": "adrian.marian.tomasz.larysz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Massfice\\Action\\": "src/"
+        }
+    }
+}
