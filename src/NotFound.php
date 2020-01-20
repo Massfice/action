@@ -6,8 +6,8 @@ use Massfice\ResponseStatus\ResponseStatus;
 use Massfice\ResponseStatus\ResponseStatusFactory;
 
 class NotFound implements HtmlAction {
-    public function notAllowedFor() : array {
-        return [];
+    public function verify() : VerifyStatus {
+        return new VerifyStatus();
     }
 
     public function load() : ?array {
