@@ -10,7 +10,7 @@ class NotFound implements HtmlAction {
         return new VerifyStatus();
     }
 
-    public function load() : ?array {
+    public function load(array $data, array $config) : ?array {
         return null;
     }
 

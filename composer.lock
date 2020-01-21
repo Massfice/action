@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "massfice/response-status",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/response-status.git",
-                "reference": "f88ad87e74e276441dc6e8e27a0aadbe93b89445"
+                "reference": "1befb6d9c233af9f76f8fbf4cd77774fc3d248cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/response-status/zipball/f88ad87e74e276441dc6e8e27a0aadbe93b89445",
-                "reference": "f88ad87e74e276441dc6e8e27a0aadbe93b89445",
+                "url": "https://api.github.com/repos/Massfice/response-status/zipball/1befb6d9c233af9f76f8fbf4cd77774fc3d248cb",
+                "reference": "1befb6d9c233af9f76f8fbf4cd77774fc3d248cb",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Package contains response-status class, that contains info about validation status, response http code, errors array, messages, etc. Project for my diploma.",
-            "time": "2020-01-19T19:33:02+00:00"
+            "time": "2020-01-21T22:15:35+00:00"
         }
     ],
     "packages-dev": [],
