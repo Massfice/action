@@ -3,7 +3,7 @@
     "type": "library",
     "description": "This package contains action interfaces and factiories. This is for my diploma project.",
     "require": {
-        "massfice/response-status": "^1.0"
+        "massfice/response-status": "^v1.0"
     },
     "license": "MIT",
     "authors": [
