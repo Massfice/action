@@ -18,7 +18,7 @@ class ResponseStatus extends rs {
 }
 
 class ResponseStatusFactory extends rsf {
-    public function create(int $code) : rs {
+    public static function create(int $code) : rs {
         $rs = parent::create($code);
         $rs = new ResponseStatus($rs->getCode());
         return $rs;
