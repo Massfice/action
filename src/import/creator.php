@@ -1,9 +1,8 @@
 <?php
 
-use Massfice\Action\HtmlAction;
-use Massfice\Action\JsonAction;
-use Massfice\Action\VerifyStatus;
-use Massfice\ResponseStatus\ResponseStatus;
-use Massfice\ResponseStatus\ResponseStatusFactory;
+require_once "ActionCreator/HtmlAction.global.php";
+require_once "ActionCreator/JsonAction.global.php";
+require_once "ActionCreator/ResponseStatus.global.php";
+require_once "ActionCreator/VerifyStatus.global.php";
 
 ?>
