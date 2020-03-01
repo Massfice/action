@@ -2,6 +2,8 @@
 
 namespace Massfice\Action;
 
+use Massfice\Action\Standart\NotFound;
+
 abstract class ActionFactory {
 
     protected $namespace;
